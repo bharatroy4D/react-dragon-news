@@ -7,7 +7,7 @@ import BreakingNews from './BreakingNews';
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
             <Header></Header>
             <BreakingNews></BreakingNews>
             <Navber></Navber>

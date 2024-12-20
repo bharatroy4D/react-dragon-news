@@ -6,6 +6,7 @@ const Navber = () => {
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/about'>About</NavLink></li>
         <li><NavLink to='/career'>Career</NavLink></li>
+        <li><NavLink to='/Login'>Login</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100">
@@ -39,7 +40,7 @@ const Navber = () => {
             </div>
             <div className="navbar-end">
                <img className='rounded-full mr-4' src={user} alt="" />
-                <Link>
+                <Link to='/login'>
                     <button className='btn'>Login</button>
                 </Link>
             </div>

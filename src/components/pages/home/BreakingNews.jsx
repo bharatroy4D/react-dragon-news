@@ -4,10 +4,12 @@ import Marquee from "react-fast-marquee";
 
 const BreakingNews = () => {
     return (
-        <div className='flex'>
-            <button className='btn btn-secondary'>Breaking News</button>
+        <div className='flex w-4/5 m-auto bg-slate-800 border'>
+            <span className='p-4'>
+            <button className='btn btn-secondary w-36 '>Breaking News</button>
+            </span>
             <Marquee pauseOnHover={true}>
-                I can be a React component, multiple React components, or just some text.
+                MY name is Bharat roy. I am a Front-end Web Developer, I Can Html, Css, Tailwind, Java Script Etc. 
             </Marquee>
 
         </div>

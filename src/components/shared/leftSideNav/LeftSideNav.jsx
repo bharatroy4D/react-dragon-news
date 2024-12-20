@@ -13,6 +13,7 @@ const LeftSideNav = () => {
             <h3 className='text-2xl my-6'>All Categories</h3>
             {
                 categories.map(category => <Link
+                to={`/category/${category.id}`}
                 className='block text-lg mt-6'
                     key={category.id}
                 >{category.name}</Link>)
